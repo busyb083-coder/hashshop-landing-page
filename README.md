@@ -45,9 +45,11 @@ After deployment, you can configure a custom domain:
 2. Navigate to "Settings" → "Domains"
 3. Add your custom domain
 4. Update your DNS records as instructed by Vercel:
-   - Add an A record pointing to Vercel's IP: `76.76.21.21`
-   - Or add a CNAME record pointing to `cname.vercel-dns.com`
+   - **Recommended**: Add a CNAME record pointing to `cname.vercel-dns.com`
+   - For root domains: Follow Vercel's specific instructions for your DNS provider
 5. Wait for DNS propagation (usually 5-10 minutes, can take up to 48 hours)
+
+**Note**: Always refer to [Vercel's official DNS documentation](https://vercel.com/docs/concepts/projects/domains) for the most current configuration instructions.
 
 ## 📁 Project Structure
 
